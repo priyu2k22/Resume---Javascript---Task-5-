@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Roboto&family=Xanh+Mono&display=swap');
+input[type=range]{
+    -webkit-appearance: none;
+    -webkit-transition: .2s;
+}
+input[type=range]:hover {
+    opacity: 1;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background:#E14D2A ;
+    cursor: pointer;
+}
+  
+  
